@@ -1,0 +1,51 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #0f172a;
+  color: white;
+  margin: 0;
+}
+
+.app {
+  max-width: 600px;
+  margin: 50px auto;
+  background: #1e293b;
+  padding: 25px;
+  border-radius: 12px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  border-radius: 6px;
+  border: none;
+}
+
+form button {
+  width: 100%;
+  padding: 10px;
+  background: #38bdf8;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#outputBox {
+  margin-top: 20px;
+}
+
+#outputText {
+  width: 100%;
+  height: 180px;
+  margin-bottom: 10px;
+}
+
+.hidden {
+  display: none;
+}
